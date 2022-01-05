@@ -1,0 +1,16 @@
+D:\K205\Initial\Initial\bin\Debug\net5.0\Initial.exe
+D:\K205\Initial\Initial\bin\Debug\net5.0\Initial.deps.json
+D:\K205\Initial\Initial\bin\Debug\net5.0\Initial.runtimeconfig.json
+D:\K205\Initial\Initial\bin\Debug\net5.0\Initial.runtimeconfig.dev.json
+D:\K205\Initial\Initial\bin\Debug\net5.0\Initial.dll
+D:\K205\Initial\Initial\bin\Debug\net5.0\ref\Initial.dll
+D:\K205\Initial\Initial\bin\Debug\net5.0\Initial.pdb
+D:\K205\Initial\Initial\obj\Debug\net5.0\Initial.csproj.AssemblyReference.cache
+D:\K205\Initial\Initial\obj\Debug\net5.0\Initial.GeneratedMSBuildEditorConfig.editorconfig
+D:\K205\Initial\Initial\obj\Debug\net5.0\Initial.AssemblyInfoInputs.cache
+D:\K205\Initial\Initial\obj\Debug\net5.0\Initial.AssemblyInfo.cs
+D:\K205\Initial\Initial\obj\Debug\net5.0\Initial.csproj.CoreCompileInputs.cache
+D:\K205\Initial\Initial\obj\Debug\net5.0\Initial.dll
+D:\K205\Initial\Initial\obj\Debug\net5.0\ref\Initial.dll
+D:\K205\Initial\Initial\obj\Debug\net5.0\Initial.pdb
+D:\K205\Initial\Initial\obj\Debug\net5.0\Initial.genruntimeconfig.cache
