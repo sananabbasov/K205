@@ -70,7 +70,7 @@ namespace Initial
 
             //int kecidBali = 51;
 
-            //// < > == != >= <= 
+
 
 
             //if (bal >= kecidBali) // false bal = 50 > kecid bali 51
@@ -83,7 +83,11 @@ namespace Initial
             //}
 
 
+            
 
+
+
+            Evvele:
             Console.WriteLine("Xos gelmissiniz.");
             Console.WriteLine("Adinizi daxil edin : ");
 
@@ -95,19 +99,72 @@ namespace Initial
 
             int yekunBal = Convert.ToInt32(bal); // string 56 convert int 56
             int kecidBali = 51;
-            // yekun bal  = bal
 
+            // E D C B A
+
+            // yekun bal  = bal
+            //// < > == != >= <= &&  ||
             int kesirBali = kecidBali - yekunBal;
 
             if (yekunBal >= kecidBali)
             {
-                Console.WriteLine(ad + " imtahannan kecdin.");
+                if (yekunBal >= 51 && yekunBal <=60) // 55 | true , false
+                {
+                    Console.BackgroundColor = ConsoleColor.Green;
+                    Console.WriteLine("Qiymet E");
+                    Console.BackgroundColor = ConsoleColor.Black;
+                }
+                else if (yekunBal >= 61 && yekunBal <= 70)
+                {
+                    Console.BackgroundColor = ConsoleColor.Green;
+                    Console.WriteLine("Qiymet D");
+                    Console.BackgroundColor = ConsoleColor.Black;
+                }
+                else if (yekunBal >= 71 && yekunBal <= 80)
+                {
+                    Console.BackgroundColor = ConsoleColor.Green;
+                    Console.WriteLine("Qiymet C");
+                    Console.BackgroundColor = ConsoleColor.Black;
+                }
+                else if (yekunBal >= 81 && yekunBal <= 90)
+                {
+                    Console.BackgroundColor = ConsoleColor.Green;
+                    Console.WriteLine("Qiymet B");
+                    Console.BackgroundColor = ConsoleColor.Black;
+                }
+                else
+                {
+                    Console.BackgroundColor = ConsoleColor.Green;
+                    Console.ForegroundColor = ConsoleColor.Black;
+                    Console.WriteLine("Qiymet A");
+                    Console.BackgroundColor = ConsoleColor.Black;
+                }
             }
             else
             {
+                Console.BackgroundColor = ConsoleColor.Red;
                 Console.WriteLine(ad + " cemi " + kesirBali +  " bal ile kesildin.");
+                Console.BackgroundColor = ConsoleColor.Black;
             }
 
+
+            Console.WriteLine("Davam etmek isteyirsiniz?");
+            var tesdiq = Console.ReadLine();
+
+            if (tesdiq == "y")
+            {
+                Console.Clear();
+                goto Evvele;
+            }
+            else if(tesdiq == "n")
+            {
+                Console.Clear();
+                Console.WriteLine("Sagolun");
+            }
+            else
+            {
+                Console.WriteLine("Duzgun yazin.");
+            }
         }
     }
 }
